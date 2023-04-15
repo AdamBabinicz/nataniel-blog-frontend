@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://blog-nataniel.netlify.app/sitemap.xml
+Host: https://blog-nataniel.netlify.app
