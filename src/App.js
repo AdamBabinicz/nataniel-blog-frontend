@@ -118,3 +118,5 @@ export default App;
 
 // https://github.com/Youssef-Abbas-Dev/blog-pro-frontend
 // https://github.com/Youssef-Abbas-Dev/blog-pro-backend
+
+// https://niruhan.medium.com/deploying-mern-fullstack-application-on-the-web-for-free-with-netlify-and-heroku-87d888012635
