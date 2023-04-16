@@ -9,7 +9,6 @@ const PostItem = ({ post, username, userId }) => {
     <div className="post-item">
       <div className="post-item-image-wrapper">
         <img src={post?.image.url} alt="..." className="post-item-image" />
-        <img src={post?.image.url} alt="..." className="post-item-image" />
       </div>
       <div className="post-item-info-wrapper">
         <div className="post-item-info">
