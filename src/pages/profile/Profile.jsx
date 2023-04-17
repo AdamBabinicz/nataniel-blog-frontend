@@ -118,7 +118,13 @@ const Profile = () => {
         <p className="profile-bio">{profile?.bio}</p>
         <div className="user-date-joined">
           <strong>Data dołączenia: </strong>
-          <span>{new Date(profile?.createdAt).toLocaleDateString()}</span>
+          <span>
+            {new Date(profile?.createdAt).toLocaleDateString("pl-PL", {
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+            })}
+          </span>
         </div>
         {user?._id === profile?._id && (
           <button
