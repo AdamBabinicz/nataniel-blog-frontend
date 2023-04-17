@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <section className="form-container">
-      <h1 className="form-title">Zaloguj się na swoje konto</h1>
+      <h2 className="form-title">Zaloguj się na swoje konto</h2>
       <form onSubmit={formSubmitHandler} className="form">
         <div className="form-group">
           <label htmlFor="email" className="form-label">

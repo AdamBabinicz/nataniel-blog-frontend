@@ -36,7 +36,7 @@ const UsersTable = () => {
     <div className="table-container">
       <AdminSidebar />
       <div className="table-wrapper">
-        <h1 className="table-title">Użytkownicy</h1>
+        <h2 className="table-title">Użytkownicy</h2>
         <table className="table">
           <thead>
             <tr>

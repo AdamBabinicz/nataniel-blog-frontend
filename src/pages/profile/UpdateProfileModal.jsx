@@ -33,7 +33,7 @@ const UpdateProfileModal = ({ setUpdateProfile, profile }) => {
             className="bi bi-x-circle-fill update-profile-form-close"
           ></i>
         </abbr>
-        <h1 className="update-profile-title">Zaktualizuj swój profil</h1>
+        <h2 className="update-profile-title">Zaktualizuj swój profil</h2>
         <input
           onChange={(e) => setUsername(e.target.value)}
           value={username}

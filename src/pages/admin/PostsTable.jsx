@@ -33,7 +33,7 @@ const PostsTable = () => {
     <div className="table-container">
       <AdminSidebar />
       <div className="table-wrapper">
-        <h1 className="table-title">Posty</h1>
+        <h2 className="table-title">Posty</h2>
         <table className="table">
           <thead>
             <tr>

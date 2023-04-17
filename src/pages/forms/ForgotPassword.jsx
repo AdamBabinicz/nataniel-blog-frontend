@@ -18,7 +18,7 @@ const ForgotPassword = () => {
 
   return (
     <section className="form-container">
-      <h1 className="form-title">Zapomniałeś/aś hasła?</h1>
+      <h2 className="form-title">Zapomniałeś/aś hasła?</h2>
       <form onSubmit={formSubmitHandler} className="form">
         <div className="form-group">
           <label htmlFor="email" className="form-label">

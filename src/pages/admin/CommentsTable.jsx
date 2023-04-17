@@ -35,7 +35,7 @@ const CommentsTable = () => {
     <div className="table-container">
       <AdminSidebar />
       <div className="table-wrapper">
-        <h1 className="table-title">Komentarze</h1>
+        <h2 className="table-title">Komentarze</h2>
         <table className="table">
           <thead>
             <tr>
