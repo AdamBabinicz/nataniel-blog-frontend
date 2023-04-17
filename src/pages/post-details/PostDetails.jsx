@@ -97,7 +97,11 @@ const PostDetails = () => {
             <Link to={`/profile/${post?.user._id}`}>{post?.user.username}</Link>
           </strong>
           <span>
-            {new Date(post?.createdAt).toLocaleDateString("YYYY MMMM dddd")}
+            {new Date(post?.createdAt).toLocaleDateString("pl", {
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+            })}
           </span>
         </div>
       </div>

@@ -19,7 +19,11 @@ const PostItem = ({ post, username, userId }) => {
             </Link>
           </div>
           <div className="post-item-date">
-            {new Date(post?.createdAt).toLocaleDateString()}
+            {new Date(post?.createdAt).toLocaleDateString("pl-PL", {
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+            })}
           </div>
         </div>
         <div className="post-item-details">
