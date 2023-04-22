@@ -79,7 +79,7 @@
   font-weight: 500;
   color: var(--main-color);
   margin-right: 10px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   cursor: pointer;
 }
 .header-right-user-photo {
