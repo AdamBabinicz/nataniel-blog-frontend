@@ -8,7 +8,7 @@
   padding-bottom: 5px;
   border-bottom: 2px solid var(--gray-color);
   font-size: 30px;
-  width: max-content;
+  width: fit-content;
 }
 .category-not-found {
   font-size: 30px;
