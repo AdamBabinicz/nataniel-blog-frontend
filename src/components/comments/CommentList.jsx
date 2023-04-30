@@ -6,7 +6,6 @@ import Moment from "react-moment";
 import "moment/locale/pl";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteComment } from "../../redux/apiCalls/commentApiCall";
-// import(`moment/locale/${navigator.language.toLocaleLowerCase()}`).then();
 
 const CommentList = ({ comments }) => {
   const dispatch = useDispatch();
