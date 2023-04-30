@@ -105,6 +105,6 @@
   }
   .post-item-image {
     object-fit: contain;
-    height: 500px;
+    max-height: 400px;
   }
 }
