@@ -16,7 +16,7 @@ export const posts = [
     _id: 2,
     title: "JavaScript",
     description: "About JavaScript",
-    category: "raczkowanie",
+    category: "raczkowanie/chodzenie",
     image: "/images/2.jpg",
     likes: [1, 2, 3, 4],
     createdAt: "Sun Oct 06 2021",
@@ -90,7 +90,7 @@ export const categories = [
   },
   {
     _id: 3,
-    title: "raczkowanie",
+    title: "raczkowanie/chodzenie",
   },
   {
     _id: 4,
