@@ -1,7 +1,3 @@
-// create-post.css
-// (Twoje istniejące style)
-
-// create-post.js
 import "./create-post.css";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
@@ -20,7 +16,6 @@ const CreatePost = () => {
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState("");
   const [file, setFile] = useState(null);
-  const [video, setVideo] = useState(null);
 
   // Form Submit Handler
   const formSubmitHandler = (e) => {
@@ -29,12 +24,10 @@ const CreatePost = () => {
     if (category.trim() === "") return toast.error("Temat postu jest wymagany");
     if (description.trim() === "")
       return toast.error("Treść postu jest wymagana");
-    if (!file || !video)
-      return toast.error("Zdjęcie i film w poście są wymagane");
+    if (!file) return toast.error("Zdjęcie w poście jest wymagane");
 
     const formData = new FormData();
     formData.append("image", file);
-    formData.append("video", video);
     formData.append("title", title);
     formData.append("description", description);
     formData.append("category", category);
@@ -91,14 +84,6 @@ const CreatePost = () => {
           id="file"
           className="create-post-upload"
           onChange={(e) => setFile(e.target.files[0])}
-        />
-        <input
-          type="file"
-          name="video"
-          id="video"
-          className="create-post-upload"
-          accept="video/*"
-          onChange={(e) => setVideo(e.target.files[0])}
         />
         <button type="submit" className="create-post-btn">
           {loading ? (
