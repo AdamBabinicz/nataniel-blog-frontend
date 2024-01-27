@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://nataniel.onrender.com/sitemap.xml
+Host: https://nataniel.onrender.com
