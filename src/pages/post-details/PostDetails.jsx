@@ -137,11 +137,13 @@ const PostDetails = () => {
           Aby napisać komentarz, należy się najpierw zalogować
         </p>
       )}
-
       <CommentList comments={post?.comments} />
       {updatePost && (
         <UpdatePostModal post={post} setUpdatePost={setUpdatePost} />
       )}
+      <button className="back-button" onClick={() => navigate(-1)}>
+        Cofnij
+      </button>
     </section>
   );
 };
